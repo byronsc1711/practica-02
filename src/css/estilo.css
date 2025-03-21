@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #112A4A;
+    color: #fff;
+}
+
+section {
+    min-height: 100vh;
+    padding: 9rem 7% 2rem;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    background: #112A4A;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 7%;
+    z-index: 100;
+}
+
+.logo {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.navbar a {
+    margin-left: 4rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background: #112A4A;
+    transition: .5s ease;
+}
+
+.navbar a.active, .navbar a:hover {
+    color: #2196f3;
+}
+
+.navbar a.demanda {
+    background: #2196f3;
+    color: #fff;
+    padding: 0.8rem 1rem;
+    border-radius: 0.7rem;
+}
+
+.acount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acount-content h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.acount-content p {
+    text-align: justify;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.acount-img {
+    padding: 7rem 14rem;
+}
+
+.acount-img img {
+    width: 22vw;
+}
